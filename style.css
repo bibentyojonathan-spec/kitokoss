@@ -86,15 +86,22 @@ nav a:hover {
 /* Featured vehicle cards */
 .card {
     border: none;
-    border-radius: 15px;
+    border-radius: 25px;
     overflow: hidden;
-    transition: 0.4s;
+    
+    box-shadow:
+        0px 10px 25px rgba(0,0,0,0.15);
+
+    transition: 0.5s;
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: scale(1.05);
 }
-
+section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 .card-body {
     text-align: center;
 }
@@ -128,6 +135,7 @@ nav a:hover {
     padding: 25px;
     margin-top: 40px;
 }
+
 
 /* Responsive design */
 @media (max-width: 768px) {
