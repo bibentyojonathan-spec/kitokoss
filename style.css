@@ -185,3 +185,12 @@ section{
     margin-bottom: 20px;
     position: relative;
 }
+.about-box h3::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #0d6efd;
+    margin-top: 8px;
+    border-radius: 10px;
+}
