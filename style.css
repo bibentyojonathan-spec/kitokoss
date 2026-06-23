@@ -194,3 +194,7 @@ section{
     margin-top: 8px;
     border-radius: 10px;
 }
+.about-box:hover{
+    transform: translateY(-5px);
+    transition: 0.4s;
+}
