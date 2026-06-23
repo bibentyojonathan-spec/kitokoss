@@ -49,11 +49,12 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 60px;
+    font-size: 70px;
+    text-shadow: 3px 3px 10px black;
 }
 
 .hero p {
-    font-size: 22px;
+    font-size: 25px;
 }
 
 /* Statistics section */
